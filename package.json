@@ -1,0 +1,26 @@
+{
+  "name": "deadmarshmallow",
+  "version": "1.0.0",
+  "description": "IDSP Semester 2 - Marketplace app - LocalScoop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincjhung/deadMarshmallow.git"
+  },
+  "author": "Yasmina Amirifar, Kevin Hung, Yoyo Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevincjhung/deadMarshmallow/issues"
+  },
+  "homepage": "https://github.com/kevincjhung/deadMarshmallow#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
