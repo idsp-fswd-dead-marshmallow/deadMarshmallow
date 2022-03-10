@@ -26,7 +26,7 @@
   };
 
 
-function validatePassword(password){
+function isPwdRightFormat(password){
     const validLength = password.length >= 8;
     
     let hasLetter = /[a-zA-Z]/g.test(password)
@@ -37,4 +37,6 @@ function validatePassword(password){
 }
 
 
-module.exports = validatePassword
+
+
+module.exports = isPwdRightFormat
