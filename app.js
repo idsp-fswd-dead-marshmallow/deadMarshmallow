@@ -1,3 +1,4 @@
+
 const express = require("express");
 const bodyParser = require("body-parser")
 
@@ -66,6 +67,7 @@ app.get("/aboutUs", (req, res) => {
 //   res.clearCookie('username');
 //   res.redirect("/");
 // })
+
 
 
 module.exports = app;
