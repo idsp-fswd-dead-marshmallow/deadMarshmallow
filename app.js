@@ -63,6 +63,12 @@ app.get("/aboutUs", (req, res) => {
   res.render("aboutUs",{ user,isLogin })
 })
 
+
+app.get("/shop", (req, res) => {
+  let user = req.session.username ? req.session.username : null;
+  res.render("shop",{ user,isLogin })
+})
+
 // app.post("/logout", (req, res) => {
 //   res.clearCookie('username');
 //   res.redirect("/");
